@@ -1,56 +1,355 @@
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Site Flores </title>
-</head>
-<body bgcolor="#FEE0E0">
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1em; margin-bottom: 1em;">
-        <img src="img/LogoFlor1.png" style="max-width: 20%; height: auto;" title="Logotipo da loja de flores">
-        <div style="position: relative; width: 100%; height: auto; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-            <img src="img/BannerFlor.png" style="width: 100%; height: auto; display: block;" alt="Banner com flores">
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Flores</title>
+  </head>
+
+  <body bgcolor="#FEE0E0">
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin-bottom: 1em;
+      "
+    >
+      <img
+        src="img/LogoFlor1.png"
+        style="max-width: 20%; height: auto"
+        title="Logotipo da loja de flores"
+      />
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <img
+          src="img/BannerFlor.png"
+          style="width: 100%; height: auto; display: block"
+          alt="Banner com flores"
+        />
+      </div>
     </div>
-    <nav style="background-color:#EEB0B0;height:5em;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <!--coloquei aqui um nav com cor diferente para destacar os links para as páginas-->
-        <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: space-around; align-items: center; height: 100%;">
-            <li style="text-align: center; background-color: #BD7F7F; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="index.html"><img src="img/home.png" width="30" alt="Página Inicial"></a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="tipos.html" style="text-decoration: none; color: black; font-weight: bold;">Tipos de Flores</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="galeria.html" style="text-decoration: none; color: black; font-weight: bold;">Galeria</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="exemplos.html" style="text-decoration: none; color: black; font-weight: bold;">Exemplos</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="contactos.html" style="text-decoration: none; color: black; font-weight: bold;">Contactos</a>
-            </li>
-        </ul>
+    <nav
+      style="
+        background-color: #eeb0b0;
+        height: 5em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <!--coloquei aqui um nav com cor diferente para destacar os links para as páginas-->
+      <ul
+        style="
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100%;
+        "
+      >
+        <li
+          style="
+            text-align: center;
+            background-color: #bd7f7f;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a href="index.html"
+            ><img src="img/home.png" width="30" alt="Página Inicial"
+          /></a>
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="tipos.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Tipos de Flores</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="galeria.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Galeria</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="exemplos.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Exemplos</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="contactos.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Contactos</a
+          >
+        </li>
+      </ul>
     </nav>
     <style>
-        nav ul li:hover {
-            transform: scale(1.1);
-            background-color: #D98C8C;
-        }
+      nav ul li:hover {
+        transform: scale(1.1);
+        background-color: #d98c8c;
+      }
     </style>
-    <br>
-    <!--aproveitei para exemplificar a utilização de um marquee enquanto não for criado o conteúdo para esta página-->
-    <marquee direction="right" behavior="alternate">
-        <font color=#BD7F7F>
-            <font size=80px> \\\\\\\\\\\\\ EM CONSTRUÇÃO /////////////</font>
-    </marquee><br>
+    <br />
+    <br><br>
+    <div>
+      <form
+        action="submit_order.php"
+        method="post"
+        style="
+          display: flex;
+          flex-direction: column;
+          gap: 1em;
+          max-width: 600px;
+          margin: 0 auto;
+          background-color: #f8d7d7;
+          padding: 1.5em;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <h2 style="text-align: center; color: #bd7f7f; font-size: 1.5em">
+          Formulário de Encomenda
+        </h2>
+        <label
+          for="name"
+          style="font-weight: bold; color: #bd7f7f; font-size: 1.1em"
+        >
+          Nome ou Número de Cliente:
+        </label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          style="
+            padding: 0.5em;
+            border: 1px solid #bd7f7f;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1em;
+            transition: box-shadow 0.3s, transform 0.3s;
+          "
+          onfocus="this.style.boxShadow='0 0 10px #bd7f7f'; this.style.transform='scale(1.05)';"
+          onblur="this.style.boxShadow='none'; this.style.transform='scale(1)';"
+        />
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <label
+          for="email"
+          style="font-weight: bold; color: #bd7f7f; font-size: 1.1em"
+          >Email:</label
+        >
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          style="
+            padding: 0.5em;
+            border: 1px solid #bd7f7f;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1em;
+            transition: box-shadow 0.3s, transform 0.3s;
+          "
+          onfocus="this.style.boxShadow='0 0 10px #bd7f7f'; this.style.transform='scale(1.05)';"
+          onblur="this.style.boxShadow='none'; this.style.transform='scale(1)';"
+        />
+
+        <label
+          for="phone"
+          style="font-weight: bold; color: #bd7f7f; font-size: 1.1em"
+          >Contacto Telefónico:</label
+        >
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          required
+          style="
+            padding: 0.5em;
+            border: 1px solid #bd7f7f;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1em;
+            transition: box-shadow 0.3s, transform 0.3s;
+          "
+          onfocus="this.style.boxShadow='0 0 10px #bd7f7f'; this.style.transform='scale(1.05)';"
+          onblur="this.style.boxShadow='none'; this.style.transform='scale(1)';"
+        />
+
+        <label
+          for="products"
+          style="font-weight: bold; color: #bd7f7f; font-size: 1.1em"
+          >Selecione um Produto:</label
+        >
+        <select
+          id="products"
+          name="products"
+          required
+          style="
+            padding: 0.5em;
+            border: 1px solid #bd7f7f;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1em;
+            transition: box-shadow 0.3s, transform 0.3s;
+          "
+          onfocus="this.style.boxShadow='0 0 10px #bd7f7f'; this.style.transform='scale(1.05)';"
+          onblur="this.style.boxShadow='none'; this.style.transform='scale(1)';"
+        >
+          <option value="arranjofloralvaso">Arranjo floral em vaso</option>
+          <option value="floralcasamento">Floral de casamento</option>
+          <option value="buquet">Buquet</option>
+          <option value="arranjofloral">Arranjos de flores</option>
+          <option value="coroas">Coroas de flores</option>
+          <option value="outros">Outros assuntos...</option>
+        </select>
+
+        <label
+          for="quantity"
+          style="font-weight: bold; color: #bd7f7f; font-size: 1.1em"
+          >Quantidade Total:</label
+        >
+        <input
+          type="number"
+          id="quantity"
+          name="quantity"
+          min="1"
+          required
+          style="
+            padding: 0.5em;
+            border: 1px solid #bd7f7f;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1em;
+            transition: box-shadow 0.3s, transform 0.3s;
+          "
+          onfocus="this.style.boxShadow='0 0 10px #bd7f7f'; this.style.transform='scale(1.05)';"
+          onblur="this.style.boxShadow='none'; this.style.transform='scale(1)';"
+        />
+
+        <label
+          for="message"
+          style="font-weight: bold; color: #bd7f7f; font-size: 1.1em"
+          >Mensagem Adicional:</label
+        >
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          style="
+            padding: 0.5em;
+            border: 1px solid #bd7f7f;
+            border-radius: 5px;
+            font-family: 'Arial', sans-serif;
+            font-size: 1em;
+            transition: box-shadow 0.3s, transform 0.3s;
+          "
+          onfocus="this.style.boxShadow='0 0 10px #bd7f7f'; this.style.transform='scale(1.05)';"
+          onblur="this.style.boxShadow='none'; this.style.transform='scale(1)';"
+        >
+        Defina aqui as flores do seu pedido e outros detalhes...</textarea
+        >
+
+        <button
+          type="submit"
+          style="
+            background-color: #bd7f7f;
+            color: white;
+            padding: 0.7em 1.5em;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+          "
+          onmouseover="this.style.backgroundColor='#d98c8c'; this.style.transform='scale(1.05)'; this.style.boxShadow='0 6px 8px rgba(0, 0, 0, 0.3)';"
+          onmouseout="this.style.backgroundColor='#bd7f7f'; this.style.transform='scale(1)'; this.style.boxShadow='0 4px 6px rgba(0, 0, 0, 0.2)';"
+        >
+          Enviar Pedido
+        </button>
+      </form>
+    </div>
+<br><br>
+
+<div style="display: flex; flex-direction: column; align-items: center; gap: 1em; margin-top: 2em;">
+    <h3 style="text-align: center; color: #bd7f7f; font-size: 1.5em; font-family: 'Arial', sans-serif;">
+      Localização
+    </h3>
+    <div style="width: 80%; border-radius: 15px; overflow: hidden; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.847456123456!2d-8.800000000000001!3d39.75000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22700000000001%3A0x123456789abcdef!2sLeiria%2C%20Portugal!5e0!3m2!1sen!2sus!4v1234567890123&fullscreen=true"
+        width="100%"
+        height="600px"
+        style="border: none;"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
     <address>
-        Em caso de dúvida contactar:<a href="mailto:moreiracmfm@hotmail.com">Carlos Moreira</a>.<br>
-        Amadora<br>
-        Portugal
-        </address>
-        <footer style="background-color: #FEE0E0; text-align: center; padding: 1em; margin-top: 2em; border-top: 1px solid #BD7F7F;">
-            2025 - Arte das Flores - Plantadas com Amor - Todos os direitos reservados
-        </footer>
-</body>
+      Em caso de dúvida contactar: <a href="mailto:moreiracmfm@hotmail.com"
+        >Carlos Moreira</a
+      >.<br />
+      Leiria<br />
+      Portugal
+    </address>
+    <footer
+      style="
+        background-color: #fee0e0;
+        text-align: center;
+        padding: 1em;
+        margin-top: 2em;
+        border-top: 1px solid #bd7f7f;
+      "
+    >
+      2025 - Arte das Flores - Plantadas com Amor - Todos os direitos reservados
+    </footer>
+  </body>
 </html>
