@@ -1,187 +1,355 @@
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Site Flores </title>
-</head>
-<body bgcolor="#FEE0E0">
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1em; margin-bottom: 1em;">
-        <img src="img/LogoFlor1.png" style="max-width: 20%; height: auto;" title="Logotipo da loja de flores">
-        <div style="position: relative; width: 100%; height: auto; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-            <img src="img/BannerFlor.png" style="width: 100%; height: auto; display: block;" alt="Banner com flores">
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Flores</title>
+  </head>
+
+  <body bgcolor="#FEE0E0">
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin-bottom: 1em;
+      "
+    >
+      <img
+        src="img/LogoFlor1.png"
+        style="max-width: 20%; height: auto"
+        title="Logotipo da loja de flores"
+      />
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <img
+          src="img/BannerFlor.png"
+          style="width: 100%; height: auto; display: block"
+          alt="Banner com flores"
+        />
+      </div>
     </div>
-    <nav style="background-color:#EEB0B0;height:5em;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <!--coloquei aqui um nav com cor diferente para destacar os links para as páginas-->
-        <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: space-around; align-items: center; height: 100%;">
-            <li style="text-align: center; background-color: #BD7F7F; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="index.html"><img src="img/home.png" width="30" alt="Página Inicial"></a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="tipos.html" style="text-decoration: none; color: black; font-weight: bold;">Tipos de Flores</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="galeria.html" style="text-decoration: none; color: black; font-weight: bold;">Galeria</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="exemplos.html" style="text-decoration: none; color: black; font-weight: bold;">Exemplos</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="contactos.html" style="text-decoration: none; color: black; font-weight: bold;">Contactos</a>
-            </li>
-        </ul>
+    <nav
+      style="
+        background-color: #eeb0b0;
+        height: 4em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <ul style="list-style: none; margin: 0; padding: 0">
+        <li
+          style="
+            text-align: center;
+            padding: 0.2em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            float: left;
+            display: block;
+            padding-inline: 2em;
+          "
+        >
+          <a
+            style="
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            "
+            href="index.html"
+            ><img src="img/home.png" width="30" alt="Página Inicial"
+          /></a>
+        </li>
+        <li
+          style="
+            background-color: #bd7f7f;
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            float: left;
+            display: block;
+            padding-inline: 4em;
+          "
+        >
+          <a
+            style="
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-weight: bold;
+            "
+            href="tipos.html"
+            style="text-decoration: none; color: black"
+            >Tipos de Flores</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            float: left;
+            display: block;
+            padding-inline: 4em;
+          "
+        >
+          <a
+            style="
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-weight: bold;
+            "
+            href="galeria.html"
+            style="text-decoration: none; color: black"
+            >Galeria</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            float: left;
+            display: block;
+            padding-inline: 4em;
+          "
+        >
+          <a
+            style="
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-weight: bold;
+            "
+            href="exemplos.html"
+            style="text-decoration: none; color: black"
+            >Exemplos</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+            float: left;
+            display: block;
+            padding-inline: 4em;
+          "
+        >
+          <a
+            style="
+              display: block;
+              color: black;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+              font-weight: bold;
+            "
+            href="contactos.html"
+            style="text-decoration: none; color: black"
+            >Contactos</a
+          >
+        </li>
+      </ul>
     </nav>
     <style>
-        nav ul li:hover {
-            transform: scale(1.1);
-            background-color: #D98C8C;
-        }
+      nav ul li:hover {
+        transform: scale(1.1);
+        background-color: #d98c8c;
+      }
     </style>
-    <br><br>
+    <br /><br />
     <table class="flower-table">
-        <tbody>
-            <tr>
-                <td>
-                    <img src="img/rosa.jpg" alt="flor rosa" title="flor rosa">
-                </td>
-                <td>
-                    <h3>Rosa</h3>
-                    <p>
-                        Naturais de vermelho e branco, hoje é possível encontrar rosas em diversos tipos de combinações de cores, incluindo azul e preto, por exemplo.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/cravo.jpg" alt="cravo" title="cravo">
-                </td>
-                <td>
-                    <h3>Cravo</h3>
-                    <p>
-                        Os cravos datam de mais de 2.000 anos. Eles são ricos em mitologia, simbolismo e até debate, principalmente por causa do nome. Alguns dizem que vem da Grécia Antiga, enquanto outros argumentam que é derivado de carnis, uma palavra latina que significa carne.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/tulipa.jpg" alt="tulipa" title="tulipa">
-                </td>
-                <td>
-                    <h3>Tulipa</h3>
-                    <p>
-                        As tulipas tornaram-se populares no século XVII quando começaram a invadir a Europa, em particular a Holanda. Essas encantadoras flores em forma de sino desencadearam uma tendência conhecida como “tulipomania”.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/margarida.jpg" alt="margarida" title="margarida">
-                </td>
-                <td>
-                    <h3>Margarida</h3>
-                    <p>
-                        Embora tenham o design mais simples, as margaridas são flores incrivelmente bonitas. Elas transmitem muita exuberância e alegria. É um dos mais comuns tipos de flores para jardim.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/girassol.jpg" alt="girassol" title="girassol">
-                </td>
-                <td>
-                    <h3>Girassol</h3>
-                    <p>
-                        Também conhecido como Helianthus, o girassol é uma das flores mais marcantes do mundo. Seu nome vem das palavras gregas helios, que significa sol, e anthos, que significa flor.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/gerbera.jpg" alt="gerbera" title="gerbera">
-                </td>
-                <td>
-                    <h3>Gerbera</h3>
-                    <p>
-                        Esse tipo de flor faz parte da família do girassol, simbolizando sinceridade e castidade. Elas estão disponíveis em uma riqueza de cores, sendo um dos mais comuns tipos de flores para decoração.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/narciso.jpg" alt="narciso" title="narciso">
-                </td>
-                <td>
-                    <h3>Narciso</h3>
-                    <p>
-                        Narcisos são flores excepcionais que simbolizam a amizade. Apresentando uma estrutura em forma de trompete colocada contra um fundo na forma de uma estrela, narcisos têm cor amarelo profundo.
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img src="img/orquidea.jpg" alt="orquidea" title="orquidea">
-                </td>
-                <td>
-                    <h3>Orquídea</h3>
-                    <p>
-                        A orquídea é uma das flores mais graciosas do mundo. É uma planta ornamental disponível em belos tons de rosa, branco, roxo, vermelho púrpura e muitas outras.
-                    </p>
-                </td>
-            </tr>
-        </tbody>
+      <tbody>
+        <tr>
+          <td>
+            <img src="img/rosa.jpg" alt="flor rosa" title="flor rosa" />
+          </td>
+          <td>
+            <h3>Rosa</h3>
+            <p>
+              Naturais de vermelho e branco, hoje é possível encontrar rosas em
+              diversos tipos de combinações de cores, incluindo azul e preto,
+              por exemplo.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/cravo.jpg" alt="cravo" title="cravo" />
+          </td>
+          <td>
+            <h3>Cravo</h3>
+            <p>
+              Os cravos datam de mais de 2.000 anos. Eles são ricos em
+              mitologia, simbolismo e até debate, principalmente por causa do
+              nome. Alguns dizem que vem da Grécia Antiga, enquanto outros
+              argumentam que é derivado de carnis, uma palavra latina que
+              significa carne.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/tulipa.jpg" alt="tulipa" title="tulipa" />
+          </td>
+          <td>
+            <h3>Tulipa</h3>
+            <p>
+              As tulipas tornaram-se populares no século XVII quando começaram a
+              invadir a Europa, em particular a Holanda. Essas encantadoras
+              flores em forma de sino desencadearam uma tendência conhecida como
+              “tulipomania”.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/margarida.jpg" alt="margarida" title="margarida" />
+          </td>
+          <td>
+            <h3>Margarida</h3>
+            <p>
+              Embora tenham o design mais simples, as margaridas são flores
+              incrivelmente bonitas. Elas transmitem muita exuberância e
+              alegria. É um dos mais comuns tipos de flores para jardim.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/girassol.jpg" alt="girassol" title="girassol" />
+          </td>
+          <td>
+            <h3>Girassol</h3>
+            <p>
+              Também conhecido como Helianthus, o girassol é uma das flores mais
+              marcantes do mundo. Seu nome vem das palavras gregas helios, que
+              significa sol, e anthos, que significa flor.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/gerbera.jpg" alt="gerbera" title="gerbera" />
+          </td>
+          <td>
+            <h3>Gerbera</h3>
+            <p>
+              Esse tipo de flor faz parte da família do girassol, simbolizando
+              sinceridade e castidade. Elas estão disponíveis em uma riqueza de
+              cores, sendo um dos mais comuns tipos de flores para decoração.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/narciso.jpg" alt="narciso" title="narciso" />
+          </td>
+          <td>
+            <h3>Narciso</h3>
+            <p>
+              Narcisos são flores excepcionais que simbolizam a amizade.
+              Apresentando uma estrutura em forma de trompete colocada contra um
+              fundo na forma de uma estrela, narcisos têm cor amarelo profundo.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="img/orquidea.jpg" alt="orquidea" title="orquidea" />
+          </td>
+          <td>
+            <h3>Orquídea</h3>
+            <p>
+              A orquídea é uma das flores mais graciosas do mundo. É uma planta
+              ornamental disponível em belos tons de rosa, branco, roxo,
+              vermelho púrpura e muitas outras.
+            </p>
+          </td>
+        </tr>
+      </tbody>
     </table>
 
     <style>
-        .flower-table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1em 0;
-            font-family: Arial, sans-serif;
-        }
+      .flower-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 1em 0;
+        font-family: Arial, sans-serif;
+      }
 
-        .flower-table img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-        }
+      .flower-table img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
 
+      .flower-table td {
+        padding: 1em;
+        vertical-align: middle;
+        text-align: center;
+      }
+
+      .flower-table h3 {
+        margin: 0;
+        color: #bd7f7f;
+        font-size: 1.5em;
+      }
+
+      .flower-table p {
+        margin: 0.5em 0;
+        font-size: 1em;
+        line-height: 1.5;
+        color: #333;
+      }
+
+      @media (max-width: 768px) {
         .flower-table td {
-            padding: 1em;
-            vertical-align: middle;
-            text-align: center;
+          display: block;
+          width: 100%;
         }
 
-        .flower-table h3 {
-            margin: 0;
-            color: #BD7F7F;
-            font-size: 1.5em;
+        .flower-table tr {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 1em;
         }
-
-        .flower-table p {
-            margin: 0.5em 0;
-            font-size: 1em;
-            line-height: 1.5;
-            color: #333;
-        }
-
-        @media (max-width: 768px) {
-            .flower-table td {
-                display: block;
-                width: 100%;
-            }
-
-            .flower-table tr {
-                display: flex;
-                flex-direction: column;
-                margin-bottom: 1em;
-            }
-        }
+      }
     </style>
-    <br>
-    <br>
+    <br />
+    <br />
     <a href="#teste1">Clique para voltar ao ínicio da página </a>
-    <br><br><br>
-    <footer style="background-color: #FEE0E0; text-align: center; padding: 1em; margin-top: 2em; border-top: 1px solid #BD7F7F;">
-        2025 - Arte das Flores - Plantadas com Amor - Todos os direitos reservados
+    <br /><br /><br />
+    <footer
+      style="
+        background-color: #fee0e0;
+        text-align: center;
+        padding: 1em;
+        margin-top: 2em;
+        border-top: 1px solid #bd7f7f;
+      "
+    >
+      2025 - Arte das Flores - Plantadas com Amor - Todos os direitos reservados
     </footer>
-</body>
+  </body>
 </html>
