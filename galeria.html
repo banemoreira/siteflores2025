@@ -1,60 +1,318 @@
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Site Flores </title>
-</head>
-<body bgcolor="#FEE0E0">
-    <div style="display: flex; flex-direction: column; align-items: center; gap: 1em; margin-bottom: 1em;">
-        <img src="img/LogoFlor1.png" style="max-width: 20%; height: auto;" title="Logotipo da loja de flores">
-        <div style="position: relative; width: 100%; height: auto; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
-            <img src="img/BannerFlor.png" style="width: 100%; height: auto; display: block;" alt="Banner com flores">
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Flores</title>
+  </head>
+
+  <body bgcolor="#FEE0E0">
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        margin-bottom: 1em;
+      "
+    >
+      <img
+        src="img/LogoFlor1.png"
+        style="max-width: 20%; height: auto"
+        title="Logotipo da loja de flores"
+      />
+      <div
+        style="
+          position: relative;
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        "
+      >
+        <img
+          src="img/BannerFlor.png"
+          style="width: 100%; height: auto; display: block"
+          alt="Banner com flores"
+        />
+      </div>
     </div>
-    <nav style="background-color:#EEB0B0;height:5em;box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);"> <!--coloquei aqui um nav com cor diferente para destacar os links para as páginas-->
-        <ul style="list-style: none; margin: 0; padding: 0; display: flex; justify-content: space-around; align-items: center; height: 100%;">
-            <li style="text-align: center; background-color: #BD7F7F; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="index.html"><img src="img/home.png" width="30" alt="Página Inicial"></a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="tipos.html" style="text-decoration: none; color: black; font-weight: bold;">Tipos de Flores</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="galeria.html" style="text-decoration: none; color: black; font-weight: bold;">Galeria</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="exemplos.html" style="text-decoration: none; color: black; font-weight: bold;">Exemplos</a>
-            </li>
-            <li style="text-align: center; padding: 0.5em; border-radius: 10px; transition: transform 0.3s, background-color 0.3s;">
-                <a href="contactos.html" style="text-decoration: none; color: black; font-weight: bold;">Contactos</a>
-            </li>
-        </ul>
+    <nav
+      style="
+        background-color: #eeb0b0;
+        height: 5em;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <!--coloquei aqui um nav com cor diferente para destacar os links para as páginas-->
+      <ul
+        style="
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100%;
+        "
+      >
+        <li
+          style="
+            text-align: center;
+            background-color: #bd7f7f;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a href="index.html"
+            ><img src="img/home.png" width="30" alt="Página Inicial"
+          /></a>
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="tipos.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Tipos de Flores</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="galeria.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Galeria</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="exemplos.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Exemplos</a
+          >
+        </li>
+        <li
+          style="
+            text-align: center;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: transform 0.3s, background-color 0.3s;
+          "
+        >
+          <a
+            href="contactos.html"
+            style="text-decoration: none; color: black; font-weight: bold"
+            >Contactos</a
+          >
+        </li>
+      </ul>
     </nav>
     <style>
-        nav ul li:hover {
-            transform: scale(1.1);
-            background-color: #D98C8C;
-        }
+      nav ul li:hover {
+        transform: scale(1.1);
+        background-color: #d98c8c;
+      }
     </style>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1em; width: 100%; padding: 1em; box-sizing: border-box;">
-        <img src="img/1.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 1">
-        <img src="img/2.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 2">
-        <img src="img/4.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 4">
-        <img src="img/5.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 5">
-        <img src="img/6.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 6">
-        <img src="img/7.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 7">
-        <img src="img/8.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 8">
-        <img src="img/10.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 10">
-        <img src="img/11.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 11">
-        <img src="img/12.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 12">
-        <img src="img/13.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 13">
-        <img src="img/14.jpg" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 10px;" alt="Imagem de flores 14">
+    <div
+      style="
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        gap: 1em;
+        width: 100%;
+        padding: 1em;
+        box-sizing: border-box;
+      "
+    >
+      <img
+        src="img/1.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 1"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/2.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 2"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/4.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores4"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/5.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 5"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/6.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 6"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/7.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 7"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/8.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 8"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/10.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 10"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/11.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 11"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/12.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 12"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/13.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 13"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
+      <img
+        src="img/14.jpg"
+        style="
+          width: 100%;
+          aspect-ratio: 1 / 1;
+          object-fit: cover;
+          border-radius: 10px;
+          transition: transform 0.3s, box-shadow 0.3s;
+        "
+        alt="Imagem de flores 14"
+        onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 4px 8px rgba(0, 0, 0, 0.3)';"
+        onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';"
+      />
     </div>
-    <br><br>
+    <br /><br />
     <a href="#teste1">Clique para voltar ao ínicio da página </a>
-    <br><br><br>
-    <footer style="background-color: #FEE0E0; text-align: center; padding: 1em; margin-top: 2em; border-top: 1px solid #BD7F7F;">
-        2025 - Arte das Flores - Plantadas com Amor - Todos os direitos reservados
+    <br /><br /><br />
+    <footer
+      style="
+        background-color: #fee0e0;
+        text-align: center;
+        padding: 1em;
+        margin-top: 2em;
+        border-top: 1px solid #bd7f7f;
+      "
+    >
+      2025 - Arte das Flores - Plantadas com Amor - Todos os direitos reservados
     </footer>
-</body>
+  </body>
 </html>
